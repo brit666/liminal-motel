@@ -32,7 +32,8 @@ Liminal Motel is a first-person 3D application built in C++ with OpenGL 3.3 (Cor
 <img width="1282" height="992" alt="image" src="https://github.com/user-attachments/assets/a693be91-e35a-4fa8-aa30-1fccf2923503" />
 <img width="1282" height="992" alt="image" src="https://github.com/user-attachments/assets/3f14303f-4ce9-4729-b955-5354d110d8b4" />
 
-**<font size="+2">Phong(1)-vs-Gouraud(2)</font>**
+**<font size="+5">Phong(1)-vs-Gouraud(2)</font>**
+
 <img width="1282" height="992" alt="image" src="https://github.com/user-attachments/assets/1c4cc66d-d259-431e-a178-c7a16ef21005" />
 <img width="1282" height="992" alt="image" src="https://github.com/user-attachments/assets/d84d1aad-ebcf-4772-adce-b90c74113570" />
 
