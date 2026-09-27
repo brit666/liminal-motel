@@ -87,3 +87,25 @@ git clone https://github.com/brit666/liminal-motel.git
 **Collision.** Every wall segment, door leaf, and furniture piece contributes an axis-aligned box on the XZ plane. Movement is resolved independently on the X and Z axes each frame, which is what lets you slide along a wall instead of stopping dead or clipping through it.
 
 ## 📁 Project Structure
+
+
+| File | Description |
+|---|---|
+| `main.cpp` | Entry point, render loop, input handling |
+| `proceduralGenerator.h` | Room generation, archetypes, wall/door/collision logic |
+| `camera.h` / `basic_camera.h` | First-person camera + a manual UVN-frame camera |
+| `shader.h` | GLSL shader loading/compilation wrapper |
+| `pointLight.h` / `spotLight.h` | Light source classes |
+| `sphere.h` | Procedural sphere mesh (lamp bulbs) |
+| `glad.c` | OpenGL function loader (vendored) |
+| `vertexShader*.vs` / `fragmentShader*.fs` / `.glsl` | Phong & Gouraud shader pairs |
+| `Lighting.sln` / `.vcxproj` | Visual Studio solution/project files |
+
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see [LICENSE.txt](./LICENSE.txt) for details.
+
+## 🙏 Acknowledgments
+
+The base `Camera`, `BasicCamera`, and `Sphere` classes originate from course starter code by Nazirul Hasan; the procedural generation, room/door/collision systems, and lighting extensions were built on top of that foundation.
