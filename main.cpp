@@ -95,7 +95,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT,
-        "Procedural Infinite Hotel", NULL, NULL);
+        "Liminal Motel", NULL, NULL);
     if (window == NULL) {
         cerr << "Failed to create GLFW window" << endl;
         glfwTerminate();
